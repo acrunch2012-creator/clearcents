@@ -3,5 +3,12 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "clearcents-api",
   "main": "src/index.js",
-  "compatibility_date": "2026-10-26"
+  "compatibility_date": "2026-10-26",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "clearcents-db",
+      "database_id": "cf098183-a77c-4000-97aa-46a077f50dd7"
+    }
+  ]
 }
