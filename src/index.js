@@ -12,7 +12,7 @@ export default {
 
     return Response.json({
       app: "ClearCents API",
-      message: "API is running"
+      message: "ClearCents API is running"
     });
   }
 };
